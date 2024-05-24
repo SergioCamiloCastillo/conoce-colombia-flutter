@@ -1,6 +1,6 @@
 import 'package:conoce_colombia/domain/entities/touristic.attraction_entity.dart';
 
-abstract class TouristicAttractionRepository {
+abstract class TouristicAttractionsRepository {
   Future<List<TouristicAttractionEntity>> getListTouristicAttractions();
-  Future<TouristicAttractionEntity> getTouristicAttractionById({int id});
+  Future<TouristicAttractionEntity> getTouristicAttractionById({required int id});
 }
